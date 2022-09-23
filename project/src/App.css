@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Prompt';
+}
+
+.nav-color {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 25px 25px;
+  padding: 20px;
+}
+
+.logo {
+  height: 6%;
+  width: 6%;
+}
+
+
+
+.button-t {
+  width: 150px;
+  height: 55px;
+  background-color: #FFE897;
+  border-radius: 7px;
+  color: #000000;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.004em;
+  border: none;
+  display: block;
+  font-size: 18px;
+}
+
+.button-t:hover {
+  background-color: #e5cc73;
+  color: #000000;
+}
+
+.button-t:focus {
+  background-color: #e5cc73;
+  color: #000000;
+}
+
+.nav-text {
+  text-align: left;
+}
+
+.nav-text2 {
+  padding: 100px;
+  color: #000000;
+
+}
+
+.icon-t {
+
+  font-size: 20px;
+}
+
+
+/* ส่วน 4 เหลี่ยม */
+.App-login-form {
+  background: #F7F7F7;
+  border-radius: 59px;
+  height: 520px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  vertical-align: middle;
+}
+
+
+/* ส่วน font */
+.font-usr-pass {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin-right: 63%;
+
+  color: #000000;
+}
+
+
+
+/* ส่วน จัดกึ่งกลาง คำว่า เข้าสู่ระบบ */
+.app-login {
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+}
+
+
+/* ส่วน ตกแต่ง ปุ่มกดเข้าสู่ระบบ */
+.submit-black-ground {
+  background: #AFE6B4;
+  border-radius: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 25%;
+  border: none;
+  color: #000000;
+  margin-top: 10%;
+  margin-left: 40%;
+
+}
+
+.submit-black-ground:hover {
+
+  color: #000000;
+  background-color: #76c57d;
+  border: none;
+}
+
+.submit-black-ground:focus {
+  color: #000000;
+  background-color: #76c57d;
+  border: none;
+}
+.submit-black-ground:disabled {
+  color: #000000;
+  background-color: #96c59a;
+
+}
+
+/* ส่วน จัดกึ่งกลาง ปุ่ม เข้าสู๋ระบบ*/
+.submitcenter {
+
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* ส่วน จัดกึ่งกลาง ช่องกรอกข้อมูล ผู้ใช้- รหัสผ่าน*/
+.use-pass {
+  background: #EBE9E9;
+  border-radius: 9px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* ส่วน ตีเส้น ปุ่มลืมรหัสผ่าน*/
+.draw-a-line {
+  text-decoration: underline;
+}
+
+.tablecustom {
+  background: #FAFAFA;
+  box-shadow: 0px 4px 6px 2px rgba(0, 0, 0, 0.25);
+
+}
+.tablealign {
+  text-align: center;
+}
+
+.editbutton{
+  border-radius: 11px;
+}
